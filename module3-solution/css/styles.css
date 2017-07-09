@@ -38,7 +38,6 @@ body {
 }
 #nav-list a {
   color: #f4cc70; /* sandstone */
-  text-align: center;
 }
 #nav-list hr {
 	padding: 0;
@@ -61,19 +60,16 @@ body {
 
 .menu {
 	background: #f4cc70; /* sandstone */
-	color: black;
-	margin: 15px;
 	padding: 10px;
-	position: relative;
+	margin: 15px 0 15px;
 }
 
-div.menu span {
-	position: absolute;
- 	top: 0;
- 	left: 0;
- 	width: 100%;
- 	text-align: center;
-	font-size: 1.5em;
+.menu section {
+	color: black;
+}
+
+div.menu h3 {
+	margin-top: 0;
 }
 
 
@@ -107,7 +103,7 @@ div.menu span {
     padding-top: 10px;
     font-size: 6vw; /* 1vw = 1% of viewport width */
   }
-  
+
 #collapsable-nav {
   background: #20948b; /* sea */
 }
