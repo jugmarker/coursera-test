@@ -1,0 +1,117 @@
+body {
+	font-size: 16px;
+	color: #fff; /* white */
+	background-color: #de7a22; /* burnt orange */
+	font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #f4cc70; /* sandstone */
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	height: 100px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	font-family: "Lora", serif;
+	color: #20948b; /* sea */
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+#nav-list a {
+  color: #f4cc70; /* sandstone */
+  text-align: center;
+}
+#nav-list hr {
+	padding: 0;
+	margin: 0;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #20948b;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+.menu {
+	background: #f4cc70; /* sandstone */
+	color: black;
+	margin: 15px;
+	padding: 10px;
+	position: relative;
+}
+
+div.menu span {
+	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	text-align: center;
+	font-size: 1.5em;
+}
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  
+#collapsable-nav {
+  background: #20948b; /* sea */
+}
+
+  /* End Header */
+
+}
